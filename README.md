@@ -7,6 +7,8 @@ Debemos de realizar una clase Math, muy simple, de addicion. A este le creamos u
 Creamos la clase Math.java, la cual compilamos, teniendo por supuesto los jars necesarios en la dirección elegida. La mia es: /home/alumnado-pc21/misjars/spring-framework-4.3.7.RELEASE/libs/*:..
 
 # Cómo hacerlo funcionar
+
+## Testing
   - Git clone:
 ```sh
 $ git clone https://github.com/Rebecasarai/JTesting.git
@@ -36,6 +38,10 @@ Time: 0,004
 
 OK (4 tests)
 ```
+
+## Testing Suite
+
+
 
 
 #### Se utilizó: 
