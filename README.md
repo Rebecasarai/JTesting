@@ -19,11 +19,22 @@ $ javac -cp /home/alumnado-pc21/misjars/spring-framework-4.3.7.RELEASE/libs/*:. 
 ```
   - Compilamos el testing:
 ```sh
-$ javac -cp /home/alumnado-pc21/misjars/spring-framework-4.3.7.RELEASE/libs/*:.  Math.java
+$ javac -cp /home/alumnado-pc21/misjars/spring-framework-4.3.7.RELEASE/libs/*:.  MathTest.java
 ```
 - Corremos el test:
 ```sh
 $ java -cp /home/alumnado-pc21/misjars/spring-framework-4.3.7.RELEASE/libs/*:. org.junit.runner.JUnitCore  MathTest
+```
+
+Deberia de resultar en:
+```sh
+$ java -cp /home/alumnado-pc21/misjars/spring-framework-4.3.7.RELEASE/libs/*:. org.junit.runner.JUnitCore  MathTest
+
+JUnit version 4.12
+....
+Time: 0,004
+
+OK (4 tests)
 ```
 
 
