@@ -40,11 +40,19 @@ OK (4 tests)
 ```
 
 ## Testing Suite
+- Ya hemos creado un est Suite, el cual nos permite automatizar dos clases de Test: 
+    
+> @Suite.SuiteClasses({
+>    MathTestSolucion.class,
+>    TestPerson.class
+> })
+  - Compilamos, y realizamos el test: 
+```sh
+$ javac -cp /home/alumnado-pc21/misjars/spring-framework-4.3.7.RELEASE/libs/*:.  MathJunitTestSuite.java
 
+$ java -cp /home/alumnado-pc21/misjars/spring-framework-4.3.7.RELEASE/libs/*:. org.junit.runner.JUnitCore  MathJunitTestSuite
+JUnit version 4.12
+.....
+Time: 0,005
 
-
-
-#### Se utilizó: 
-  - JUnit version 4.12
-  - Linea de comandos de Linux Ubuntu 16.01
-  - GEdit
+OK (5 tests)
