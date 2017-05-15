@@ -2,7 +2,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-   MathTestSolucion.class,
+   MathTest.class,
    TestPerson.class
 })
 public class MathJunitTestSuite {   
